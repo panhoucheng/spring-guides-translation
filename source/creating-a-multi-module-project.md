@@ -63,8 +63,15 @@
 
 ## 创建一个根项目
 ####创建目录结构
+在您选择的项目目录中，创建如下所示的子目录结构，例如：在`*unix`系统中可以使用`mkdir library application`命令
+```
+└── library
+└── application
+```
 
-
+在根项目中你将需要设置一个构建系统，本指南将为您介绍如何使用Maven或Gradle。
+##多模块项目Gradle配置
+我们推荐使用`Gradle wrapper`，因此我们需要从一个已经存在的项目中复制，或者通过执行`wrapper`任务来安装wapper（参考 Gradle 文档）
 
 
 > 本文由spring4all.com翻译小分队创作，采用[知识共享-署名-非商业性使用-相同方式共享 4.0 国际 许可](http://creativecommons.org/licenses/by-nc-sa/4.0/) 协议进行许可。
